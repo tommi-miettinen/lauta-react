@@ -1,0 +1,40 @@
+.post-form-container {
+  border: 1px solid black;
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  align-self: center;
+  padding: 5px;
+  background-color: white;
+}
+
+.post-form {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 99.3%;
+  height: 140px;
+  margin-bottom: 5px;
+  margin-top: -1px;
+  resize: none;
+}
+
+.icon:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.file-input {
+  border: 1px solid grey;
+}
+
+.file-input:hover {
+  cursor: pointer;
+  border-color: black;
+}
+
+.input {
+  border: 1px solid grey;
+}
+
+.input:hover {
+  border-color: black;
+}

@@ -1,0 +1,21 @@
+.thread-list-item {
+  margin-top: 10px;
+  color: #800;
+  display: flex;
+  overflow: auto;
+  background-color: #ffe4c9;
+  min-height: 50px;
+}
+
+.link {
+  padding-bottom: 5px;
+  font-size: 24px;
+  max-width: 80%;
+  word-wrap: break-word;
+  text-decoration: none;
+  color: #800;
+}
+
+.link:hover {
+  color: red;
+}

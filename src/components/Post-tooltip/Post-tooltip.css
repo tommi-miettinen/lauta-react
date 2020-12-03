@@ -1,0 +1,48 @@
+#reply-id {
+  text-decoration: underline;
+  padding: 10px;
+  color: red;
+}
+
+.post-info {
+  padding: 5px;
+  padding-right: 100px;
+  background-color: #eee1d9;
+}
+
+.tooltip-container {
+  display: flex;
+  flex-direction: column;
+  color: #800;
+  border: 1px solid #800;
+  position: absolute;
+  background-color: #f3e6de;
+  opacity: 0.99;
+  z-index: 3;
+  white-space: pre-wrap;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.content {
+  word-wrap: break-word;
+  overflow: auto;
+  white-space: pre-wrap;
+  padding: 15px;
+}
+
+.replies:hover .tooltip-container {
+  visibility: visible;
+}
+
+.nav-item:hover .tooltip-container {
+  visibility: visible;
+}
+
+.youtube-icon {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -30px;
+  left: 50%;
+  top: 50%;
+}

@@ -1,0 +1,23 @@
+.thread {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.showmore-button {
+  padding: 3px 5px;
+  margin: 0px 5px 5px 0px;
+  background-color: #f3e6de;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f3e6de #d9bfb7 #d9bfb7 #f3e6de;
+  color: #800 !important;
+  font-weight: 400;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.showmore-button:hover {
+  background-color: #f0c0b0;
+  border-color: #f0c0b0;
+}

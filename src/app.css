@@ -1,0 +1,19 @@
+#open {
+  color: #800;
+}
+
+#open:hover {
+  cursor: pointer;
+}
+
+#closed {
+  color: #800;
+}
+
+#closed:hover {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Segoe UI", "Open Sans";
+}

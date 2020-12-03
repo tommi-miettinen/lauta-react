@@ -1,0 +1,86 @@
+.thread-subject {
+  background-color: #ffe4c9;
+  height: 35px;
+}
+
+.thread-subject-link {
+  font-weight: 300;
+  text-decoration: none;
+  color: #800;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.thread-subject-link:hover {
+  color: red;
+}
+
+.post-container {
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 0px 5px 0px;
+  color: #800;
+  background-color: #f3e6de;
+  scroll-margin-top: 5px;
+}
+
+.nav-item {
+  text-decoration: underline;
+  margin: 10px 0px;
+  color: red;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+}
+
+.replies {
+  text-decoration: underline;
+  padding: 5px;
+  color: red;
+}
+
+.replies:hover {
+  cursor: pointer;
+}
+
+.greentext {
+  color: green;
+}
+
+.bluetext {
+  color: blue;
+}
+
+.id {
+  color: #800;
+  text-decoration: none;
+}
+
+.id:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.post-info {
+  display: flex;
+  padding: 5px;
+  height: 25px;
+  background-color: #eee1d9;
+}
+
+#email-icon {
+  margin-right: 5px;
+}
+
+#email-icon:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#delete-icon:hover {
+  color: red;
+  cursor: pointer;
+}

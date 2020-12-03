@@ -1,0 +1,21 @@
+.spoiler {
+  color: #000;
+  border-radius: 3px;
+  padding: 0 2px;
+  background: #000;
+  cursor: pointer;
+}
+
+.spoiler-open {
+  border-radius: 3px;
+  padding: 0 2px;
+  background: lightgrey;
+  cursor: pointer;
+}
+
+.content {
+  word-wrap: break-word;
+  overflow: auto;
+  white-space: pre-wrap;
+  margin: 5px 10px;
+}

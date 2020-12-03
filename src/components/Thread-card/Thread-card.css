@@ -1,0 +1,40 @@
+.thread-card {
+  display: flex;
+  flex-direction: column;
+  width: 181px;
+  height: 300px;
+  margin: 2px 2px;
+  overflow: hidden;
+  border: 1px solid darkgrey;
+}
+
+.title {
+  padding: 0;
+  padding-left: 5px;
+  font-size: 1.2em;
+  line-height: 2em;
+  height: auto;
+}
+
+.title:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#delete-icon {
+  margin-left: auto;
+}
+
+#delete-icon:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+}
+
+.post-media-container:hover {
+  cursor: pointer;
+}

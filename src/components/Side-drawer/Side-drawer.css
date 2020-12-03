@@ -1,0 +1,24 @@
+.side-drawer {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  transition: margin-left 0.3s;
+  margin-left: -200px;
+  width: 200px;
+  height: 100vh;
+}
+
+.side-drawer.open {
+  margin-left: 0px;
+}
+
+.side-drawer-nav-item {
+  color: #800;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.side-drawer-nav-item:hover {
+  color: red;
+}

@@ -1,0 +1,7 @@
+.post-media {
+  justify-self: start;
+}
+
+.post-media:hover {
+  cursor: pointer;
+}

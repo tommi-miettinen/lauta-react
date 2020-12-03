@@ -1,0 +1,3 @@
+.boi:nth-child(odd) {
+  background-color: red;
+}
